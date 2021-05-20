@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9231" started-at="2021-05-20T15:00:16Z" finished-at="2021-05-20T15:00:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9231" started-at="2021-05-20T15:00:16Z" finished-at="2021-05-20T15:00:26Z">
+      <class name="Automation.SeleniumDemo.HomePage">
+        <test-method status="PASS" signature="fetchURL()[pri:0, instance:Automation.SeleniumDemo.HomePage@6f204a1a]" name="fetchURL" is-config="true" duration-ms="3717" started-at="2021-05-20T20:30:16Z" finished-at="2021-05-20T20:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchURL -->
+        <test-method status="PASS" signature="homePage(java.lang.String, java.lang.String)[pri:0, instance:Automation.SeleniumDemo.HomePage@6f204a1a]" name="homePage" duration-ms="809" started-at="2021-05-20T20:30:20Z" description="Login test" data-provider="testData" finished-at="2021-05-20T20:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bindu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Automation.SeleniumDemo.HomePage@6f204a1a]" name="closeBrowser" is-config="true" duration-ms="99" started-at="2021-05-20T20:30:21Z" finished-at="2021-05-20T20:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="fetchURL()[pri:0, instance:Automation.SeleniumDemo.HomePage@6f204a1a]" name="fetchURL" is-config="true" duration-ms="3639" started-at="2021-05-20T20:30:21Z" finished-at="2021-05-20T20:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchURL -->
+        <test-method status="PASS" signature="homePage(java.lang.String, java.lang.String)[pri:0, instance:Automation.SeleniumDemo.HomePage@6f204a1a]" name="homePage" duration-ms="838" started-at="2021-05-20T20:30:25Z" description="Login test" data-provider="testData" finished-at="2021-05-20T20:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Automation.SeleniumDemo.HomePage@6f204a1a]" name="closeBrowser" is-config="true" duration-ms="115" started-at="2021-05-20T20:30:26Z" finished-at="2021-05-20T20:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Automation.SeleniumDemo.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

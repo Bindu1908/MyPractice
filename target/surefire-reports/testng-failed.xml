@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Automation.SeleniumDemo.SignUp">
+        <methods>
+          <include name="fetchURL"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Automation.SeleniumDemo.SignUp -->
+      <class name="Automation.SeleniumDemo.HomePage">
+        <methods>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- Automation.SeleniumDemo.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
